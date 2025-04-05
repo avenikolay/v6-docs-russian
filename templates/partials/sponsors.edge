@@ -2,10 +2,10 @@
 
 <div class="sponsors_wrapper">
   <p>
-    List of individuals and companies publicly sponsoring
-      <a href="https://github.com/sponsors/thetutlage">Harminder Virk on GitHub</a>.
-      If you are sponsoring and cannot see your name, ensure your
-      <a href="https://docs.github.com/en/sponsors/sponsoring-open-source-contributors/managing-your-sponsorship#managing-the-privacy-setting-for-your-sponsorship">sponsorship is not private</a>.
+    Список лиц и компаний, публично спонсирующих
+      <a href="https://github.com/sponsors/thetutlage">Харминдера Вирка на GitHub</a>.
+      Если вы являетесь спонсором и не видите своего имени, убедитесь, что ваше
+      <a href="https://docs.github.com/en/sponsors/sponsoring-open-source-contributors/managing-your-sponsorship#managing-the-privacy-setting-for-your-sponsorship">спонсорство не является приватным</a>.
   </p>
 
   @include('partials/featured_sponsors')
@@ -14,7 +14,7 @@
   @!component('docs::elements/sponsors', {
     sponsors,
     tier: 'gold',
-    title: 'Gold sponsors',
+    title: 'Золотые спонсоры',
     finder: (sponsor) => {
       return !sponsor.isOneTime && sponsor.monthlyDollars > 29
     }
@@ -23,7 +23,7 @@
   @!component('docs::elements/sponsors', {
     sponsors,
     tier: 'silver',
-    title: 'Silver sponsors',
+    title: 'Серебряные спонсоры',
     finder: (sponsor) => {
       return !sponsor.isOneTime && sponsor.monthlyDollars === 29
     }
@@ -32,7 +32,7 @@
   @!component('docs::elements/sponsors', {
     sponsors,
     tier: 'basic',
-    title: 'Sponsors',
+    title: 'Спонсоры',
     finder: (sponsor) => {
       return !sponsor.isOneTime && sponsor.monthlyDollars >= 19 && sponsor.monthlyDollars < 29
     }
@@ -41,7 +41,7 @@
   @!component('docs::elements/sponsors', {
     sponsors,
     tier: 'basic',
-    title: 'Backers',
+    title: 'Поддерживающие',
     finder: (sponsor) => {
       return !sponsor.isOneTime && sponsor.monthlyDollars >= 0 && sponsor.monthlyDollars < 19
     }
@@ -50,7 +50,7 @@
   @!component('docs::elements/sponsors', {
     sponsors,
     tier: 'previous',
-    title: 'Past sponsors',
+    title: 'Спонсоры, оказавшие поддержку ранее',
     finder: (sponsor) => {
       return sponsor.monthlyDollars === -1 || sponsor.isOneTime
     }
