@@ -9,6 +9,7 @@
 */
 
 import dayjs from 'dayjs'
+import 'dayjs/locale/ru.js'
 import edge from 'edge.js'
 import uiKit from 'edge-uikit'
 import collect from 'collect.js'
@@ -35,6 +36,7 @@ edge.global('getConfig', async () =>
 )
 
 dayjs.extend(relativeTime)
+dayjs.locale('ru')
 edge.global('dayjs', dayjs)
 
 /**
