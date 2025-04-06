@@ -1,33 +1,33 @@
 [
   {
     "permalink": "preface/introduction",
-    "title": "Introduction",
+    "title": "Введение",
     "contentPath": "./preface/introduction.md",
-    "category": "Preface"
+    "category": "Предисловие"
   },
   {
     "permalink": "preface/faqs",
     "title": "FAQs",
     "contentPath": "./preface/faqs.md",
-    "category": "Preface"
+    "category": "Предисловие"
   },
   {
     "permalink": "preface/governance",
-    "title": "Governance",
+    "title": "Управление",
     "contentPath": "./preface/governance.md",
-    "category": "Preface"
+    "category": "Предисловие"
   },
   {
     "permalink": "preface/releases",
-    "title": "Releases",
+    "title": "Релизы",
     "contentPath": "./preface/releases.md",
-    "category": "Preface"
+    "category": "Предисловие"
   },
   {
     "permalink": "preface/contribution-guide",
     "title": "Contribution Guide",
     "contentPath": "./preface/contribution_guide.md",
-    "category": "Preface"
+    "category": "Предисловие"
   },
   {
     "permalink": "getting-started/installation",
