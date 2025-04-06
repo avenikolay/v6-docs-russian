@@ -1,5 +1,5 @@
 ---
-summary: "AdonisJS is a TypeScript-first web framework for Node.js. You can use it to create a full-stack web application or a JSON API server."
+summary: "AdonisJS — это веб-фреймворк для Node.js, ориентированный в первую очередь на TypeScript. Вы можете использовать его для создания полноценного веб-приложения или JSON API сервера."
 ---
 
 # Введение
