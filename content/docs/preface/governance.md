@@ -1,108 +1,108 @@
 ---
-summary: Governance model for the AdonisJS project.
+summary: Модель управления проектом AdonisJS.
 ---
 
-# Governance
+# Управление
 
-## Roles and responsibilities
+## Роли и обязанности
 
-### Authors
+### Авторы
 
-Harminder Virk (the creator of AdonisJS) serves as the Project Author. The project author is responsible for the project's governance, standards, and direction. To summarize:
+Harminder Virk (создатель AdonisJS) выступает в роли Автора Проекта. Автор проекта отвечает за управление проектом, стандарты и направление развития. Если обобщить:
 
-- The project author decides which new projects should live under the AdonisJS umbrella.
-- The project author is responsible for assigning leads to projects and transferring projects to a new lead when an existing lead steps down.
-- It is the author's responsibility to share/document the framework's vision and keep project leads in sync with the same.
+- Автор проекта принимает решения о том, какие новые проекты должны находиться под эгидой AdonisJS.
+- Автор проекта отвечает за назначение руководителей проектов и передачу проектов новому руководителю, когда существующий руководитель уходит с должности.
+- Обязанностью автора является документирование и распространение видения фреймворка, а также обеспечение синхронизации руководителей проектов с этим видением.
 
-### Project Leads
+### Руководители проектов
 
-AdonisJS is a combination of several packages created and managed by the core team. All of these packages are led by a project lead selected by the project Author.
+AdonisJS представляет собой комбинацию нескольких пакетов, созданных и управляемых основной командой. Всеми этими пакетами руководят руководители проектов, выбранные Автором проекта.
 
-In almost every case, the creator of the package serves as the project lead since they are the ones who have put the initial efforts into bringing the idea to life.
+Практически во всех случаях создатель пакета выступает в роли руководителя проекта, поскольку именно он приложил начальные усилия для воплощения идеи в жизнь.
 
-The project lead has the final say in all aspects of decision-making within the project. However, because the community always has the ability to fork, this person is fully answerable to the community. It is the project lead's responsibility to set the strategic objectives of the project and communicate these clearly to the community. They also have to understand the community as a whole and strive to satisfy as many conflicting needs as possible while ensuring that the project survives in the long term.
+Руководитель проекта имеет решающее слово во всех аспектах принятия решений в рамках проекта. Однако, поскольку сообщество всегда имеет возможность создать форк, этот человек полностью подотчетен сообществу. Обязанность руководителя проекта — определять стратегические цели проекта и четко доносить их до сообщества. Он также должен понимать сообщество в целом и стремиться удовлетворить как можно больше противоречивых потребностей, обеспечивая при этом долгосрочное выживание проекта.
 
-In many ways, the role of the project lead is about diplomacy. The key is to ensure that, as the project expands, the right people are given influence over it, and the community rallies behind the vision of the project lead. The lead's job is then to ensure that the core team members (see below) make the right decisions on behalf of the project. Generally speaking, as long as the core team members are aligned with the project's strategy, the project lead will allow them to proceed as desired.
+Во многом роль руководителя проекта связана с дипломатией. Ключевым моментом является обеспечение того, чтобы по мере расширения проекта нужным людям предоставлялось влияние на него, а сообщество поддерживало видение руководителя проекта. Затем задача руководителя — обеспечить, чтобы члены основной команды (см. ниже) принимали правильные решения от имени проекта. Как правило, пока члены основной команды придерживаются стратегии проекта, руководитель проекта позволяет им действовать по своему усмотрению.
 
 :::note
-A project lead cannot archive or decide to remove the project from the AdonisJS umbrella. They can decide to stop working on the project, and in that case, we will find a new project lead.
+Руководитель проекта не может архивировать или принимать решение об удалении проекта из-под эгиды AdonisJS. Он может решить прекратить работу над проектом, и в этом случае мы найдем нового руководителя проекта.
 :::
 
-### Core team
+### Основная команда
 
-Members of the core team are contributors who have made multiple valuable contributions to the project and are now relied upon to both write code directly to the repository and screen the contributions of others. In many cases, they are programmers, but it is also possible that they contribute in a different role, for example, community engagement. Typically, a core team member will focus on a specific aspect of the project and will bring a level of expertise and understanding that earns them the respect of the community and the project lead. The role of core team member is not an official one, it is simply a position that influential members of the community will find themselves in as the project lead looks to them for guidance and support.
+Члены основной команды — это участники, которые внесли множество ценных вкладов в проект и теперь на них полагаются как для непосредственного написания кода в репозиторий, так и для проверки вкладов других участников. Во многих случаях они являются программистами, но также возможно, что они вносят вклад в другой роли, например, в развитие сообщества. Обычно член основной команды сосредотачивается на определенном аспекте проекта и обладает уровнем экспертизы и понимания, который заслуживает уважение сообщества и руководителя проекта. Роль члена основной команды не является официальной, это просто позиция, в которой влиятельные члены сообщества оказываются, когда руководитель проекта обращается к ним за руководством и поддержкой.
 
-Core team members have no authority over the overall direction of the project. However, they do have the ear of the project lead. It is a core team member's job to ensure that the lead is aware of the community's needs and collective objectives, and to help develop or elicit appropriate contributions to the project. Often, core team members are given informal control over their specific areas of responsibility, and are assigned rights to directly modify certain areas of the source code. That is, although core team members do not have explicit decision-making authority, they will often find that their actions are synonymous with the decisions made by the lead.
+Члены основной команды не имеют власти над общим направлением проекта. Однако они имеют доступ к руководителю проекта. Задача члена основной команды — обеспечить, чтобы руководитель был в курсе потребностей сообщества и коллективных целей, а также помочь разработать или получить соответствующие вклады в проект. Часто членам основной команды предоставляется неформальный контроль над их конкретными областями ответственности, и им назначаются права на прямое изменение определенных областей исходного кода. То есть, хотя члены основной команды не имеют явных полномочий по принятию решений, они часто обнаруживают, что их действия схожи с решениями, принятыми руководителем.
 
-#### Active Core Team Members
+#### Активные члены основной команды
 
-Active Core Team Members contribute to the project on a regular basis. An active core team member usually has or more focus areas - in the most common cases, they will be responsible for the regular issue triaging, bug fixing, documentation improvements or feature development in a subproject repository.
+Активные члены основной команды регулярно вносят вклад в проект. У активного члена основной команды обычно есть одна или несколько областей специализации - в большинстве случаев, они отвечают за регулярную приоритизацию и анализ проблем, исправление ошибок, улучшение документации или разработку функций в подпроекте.
 
-#### Core Team Emeriti
+#### Почетные члены основной команды
 
-Some core team members who have made valuable contributions in the past may no longer be able to commit to the same level of participation today due to various reasons. That is perfectly normal, and any past contributions to the project are still highly appreciated. These core team members are honored for their contributions as Core Team Emeriti, and are welcome to resume active participation at any time.
+Некоторые члены основной команды, которые внесли ценный вклад в прошлом, возможно, больше не могут поддерживать тот же уровень участия сегодня по различным причинам. Это совершенно нормально, и любой прошлый вклад в проект по-прежнему высоко ценится. Эти члены основной команды удостоены почестей за свой вклад как Почетные члены основной команды и могут возобновить активное участие в любое время.
 
-### Contributors
+### Контрибьюторы
 
-Contributors are community members who either have no desire to become core team members, or have not yet been given the opportunity by the project lead. They make valuable contributions, such as those outlined in the list below, but generally do not have the authority to make direct changes to the project code. Contributors engage with the project through communication tools, such as the RFC discussions, GitHub issues and pull requests, Discord chatroom, and the forum.
+Контрибьюторы — это члены сообщества, которые либо не имеют желания стать членами основной команды, либо еще не получили такой возможности от руководителя проекта. Они вносят ценный вклад, например, как описано в списке ниже, но обычно не имеют полномочий вносить прямые изменения в код проекта. Контрибьюторы взаимодействуют с проектом через средства коммуникации, такие как обсуждения RFC, GitHub-задачи и запросы на включение изменений (pull requests), чат в Discord и форум.
 
-Anyone can become a contributor. There is no expectation of commitment to the project, no specific skill requirements and no selection process. To become a contributor, a community member simply has to perform one or more actions that are beneficial to the project.
+Любой может стать контрибьютором. Нет никаких ожиданий относительно обязательств перед проектом, конкретных требований к навыкам или процесса отбора. Чтобы стать контрибьютором, члену сообщества просто нужно выполнить одно или несколько действий, полезных для проекта.
 
-Some contributors will already be engaging with the project as users, but will also find themselves doing one or more of the following:
+Некоторые контрибьюторы уже взаимодействуют с проектом как пользователи, но также могут обнаружить, что занимаются одним или несколькими из следующих видов деятельности:
 
-- Supporting new users (current users often provide the most effective new user support)
-- Reporting bugs
-- Identifying requirements
-- Programming
-- Assisting with project infrastructure
-- Fixing bugs
-- Adding features
+- Поддержка новых пользователей (действующие пользователи часто обеспечивают наиболее эффективную поддержку новых пользователей)
+- Сообщение об ошибках
+- Определение требований
+- Программирование
+- Помощь с инфраструктурой проекта
+- Исправление ошибок
+- Добавление новых функций
 
-As contributors gain experience and familiarity with the project, they may find that the project lead starts relying on them more and more. When this begins to happen, they gradually adopt the role of core team member, as described above.
+По мере того как контрибьюторы приобретают опыт и знакомство с проектом, они могут обнаружить, что руководитель проекта начинает всё больше полагаться на них. Когда это начинает происходить, они постепенно принимают роль члена основной команды, как описано выше.
 
-### Users
+### Пользователи
 
-Users are community members who have a need for the project. They are the most important members of the community: without them, the project would have no purpose. Anyone can be a user; there are no specific requirements.
+Пользователи — это члены сообщества, которые нуждаются в проекте. Они являются самыми важными членами сообщества: без них проект не имел бы смысла. Любой может быть пользователем; для этого нет особых требований.
 
-Users should be encouraged to participate in the life of the project and the community as much as possible. User contributions enable the project team to ensure that they are satisfying the needs of those users. Common user activities include (but are not limited to):
+Пользователей следует поощрять к участию в жизни проекта и сообщества насколько это возможно. Вклад пользователей позволяет команде проекта убедиться, что они удовлетворяют потребности этих пользователей. Обычная деятельность пользователей включает (но не ограничивается):
 
-- Evangelizing about the project.
-- Informing developers of project strengths and weaknesses from a new user's perspective.
-- Providing moral support (a 'thank you' goes a long way).
-- Providing financial support through GitHub Sponsors.
+- Продвижение проекта.
+- Информирование разработчиков о сильных и слабых сторонах проекта с точки зрения нового пользователя.
+- Оказание моральной поддержки (простое «спасибо» имеет большое значение).
+- Предоставление финансовой поддержки через GitHub Sponsors.
 
-Users who continue to engage with the project and its community will often find themselves becoming more and more involved. Such users may then go on to become contributors, as described above.
+Пользователи, которые продолжают взаимодействовать с проектом и его сообществом, часто обнаруживают, что становятся всё более и более вовлеченными. Такие пользователи затем могут стать контрибьюторами, как описано выше.
 
-## Support
+## Поддержка
 
-All participants in the community are encouraged to provide support for new users within the project management infrastructure. This support is provided as a way of growing the community. Those seeking support should recognize that all support activity within the project is voluntary and is therefore provided as and when time allows. A user requiring guaranteed response times or results should therefore seek to purchase a support contract. However, for those willing to engage with the project on its terms, and willing to help support other users, the community support channels are ideal.
+Всем участникам сообщества рекомендуется оказывать поддержку новым пользователям в рамках инфраструктуры управления проектом. Эта поддержка предоставляется как способ развития сообщества. Тем, кто ищет поддержку, следует понимать, что вся деятельность по поддержке в рамках проекта является добровольной и, следовательно, осуществляется по мере наличия времени. Поэтому пользователь, требующий гарантированного времени отклика или результатов, должен обратиться за приобретением контракта на поддержку. Однако для тех, кто готов взаимодействовать с проектом на его условиях и готов помогать другим пользователям, каналы поддержки сообщества идеально подходят.
 
-### Monetary Donations
+### Денежные пожертвования
 
-For an open development project, money is less important than active contribution. However, some people or organizations are cash-rich and time-poor and would prefer to make their contribution in the form of cash. If you want to make a significant donation, you may be able to sponsor us to implement a new feature or fix some bugs. The project website provides clear guidance on how to go about donating.
+Для проекта с открытой разработкой деньги менее важны, чем активное участие. Однако некоторые люди или организации богаты деньгами, но ограничены во времени и предпочли бы внести свой вклад в виде денежных средств. Если вы хотите сделать значительное пожертвование, вы можете спонсировать нас для реализации новой функции или исправления некоторых ошибок. Веб-сайт проекта предоставляет четкие рекомендации о том, как делать пожертвования.
 
-If you run a business using the project as a revenue-generating product, it makes business sense to sponsor its development. It ensures the project that your product relies on stays healthy and actively maintained. It can also improve exposure in our community and make it easier to attract new developers.
+Если вы ведете бизнес, используя проект как продукт, приносящий доход, с деловой точки зрения имеет смысл спонсировать его разработку. Это гарантирует, что проект, на который полагается ваш продукт, остается здоровым и активно поддерживаемым. Это также может улучшить вашу видимость в нашем сообществе и облегчить привлечение новых разработчиков.
 
-## Branding and Ownership
+## Бренд и права собственности
 
-AdonisJS (spelled with "JS" at the end) is a registered trademark of Harminder Virk.
+AdonisJS (пишется с "JS" в конце) является зарегистрированной торговой маркой Харминдером Вирком.
 
-Only the projects under the `@adonisjs` npm scope and the AdonisJS GitHub organization are managed and officially supported by the core team.
+Только проекты в npm-области `@adonisjs` и в GitHub-организации AdonisJS управляются и официально поддерживаются основной командой.
 
-Also, you must not use the AdonisJS name or logos in a way that could mistakenly imply any official connection with or endorsement of AdonisJS. Any use of the AdonisJS name or logos in a manner that could cause customer confusion is not permitted.
+Также вы не должны использовать название или логотипы AdonisJS таким образом, который мог бы ошибочно подразумевать какую-либо официальную связь с AdonisJS или его одобрение. Любое использование названия или логотипов AdonisJS способом, который может вызвать путаницу у клиентов, запрещено.
 
-This includes naming a product or service in a way that emphasizes the AdonisJS brand, like "AdonisJS UIKit" or "AdonisJS Studio", as well as in domain names like "adonisjs-studio.com".
+Это включает в себя именование продукта или услуги способом, подчеркивающим бренд AdonisJS, например "AdonisJS UIKit" или "AdonisJS Studio", а также в доменных именах наподобие "adonisjs-studio.com".
 
-Instead, you must use your own brand name in a way that clearly distinguishes it from AdonisJS.
+Вместо этого вы должны использовать собственное название бренда таким образом, чтобы оно четко отличалось от AdonisJS.
 
-Additionally, you may not use our trademarks for t-shirts, stickers, or other merchandise without explicit written consent.
+Кроме того, вы не можете использовать наши торговые марки для футболок, наклеек или других товаров без явного письменного согласия.
 
-## Projects under AdonisJS umbrella
+## Проекты под эгидой AdonisJS
 
-Projects under the AdonisJS umbrella are the intellectual property of the Project Author. Once a project created by a project lead becomes part of the "AdonisJS GitHub organization," or if it is published under the `@adonisjs` npm scope, the project leads cannot delete or abandon the project.
+Проекты под эгидой AdonisJS являются интеллектуальной собственностью Автора Проекта. Как только проект, созданный руководителем проекта, становится частью "GitHub-организации AdonisJS" или публикуется в npm-области `@adonisjs`, руководители проекта не могут удалить или отказаться от проекта.
 
 ---
 
 :::note
-This governance document is based upon the [Benevolent Dictator Governance Model](http://oss-watch.ac.uk/resources/benevolentdictatorgovernancemodel) by Ross Gardler and Gabriel Hanganu, licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). This document itself is also licensed under the same license.
+Этот документ управления основан на [Модели управления Великодушного Диктатора](http://oss-watch.ac.uk/resources/benevolentdictatorgovernancemodel) Росса Гардлера и Габриэля Хангану, лицензированной под [Международной лицензией Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Сам этот документ также лицензирован под той же лицензией.
 :::
