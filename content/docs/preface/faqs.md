@@ -1,48 +1,48 @@
 ---
-summary: Frequently asked questions about AdonisJS, the framework, and its ecosystem.
+summary: Часто задаваемые вопросы о AdonisJS, фреймворке и его экосистеме.
 ---
 
 # FAQs
 
-## Who maintains AdonisJS?
+## Кто занимается поддержкой AdonisJS?
 
-AdonisJS is an independent project created by [Harminder Virk](https://twitter.com/AmanVirk1) in 2015. The framework is actively maintained by the [core team](https://github.com/orgs/adonisjs/people) and community contributors.
+AdonisJS - это независимый проект, созданный [Харминдером Вирком](https://twitter.com/AmanVirk1) в 2015 году. Фреймворк активно поддерживается [основной командой](https://github.com/orgs/adonisjs/people) и сообществом контрибьюторов.
 
-The framework creator (Harminder Virk) is the project lead and works full-time on the framework.
+Создатель фреймворка (Харминдер Вирк) является руководителем проекта и работает над ним полный рабочий день.
 
-The project is funded through GitHub Sponsors. If you or your business benefit from AdonisJS, consider [sponsoring us to support the framework development](https://github.com/sponsors/thetutlage).
+Проект финансируется через спонсоров GitHub. Если вам или вашему бизнесу полезен AdonisJS, рассмотрите возможность [спонсирования нас для поддержки развития фреймворка](https://github.com/sponsors/thetutlage).
 
-## How is AdonisJS licensed?
+## Как лицензируется AdonisJS?
 
-AdonisJS (the framework) and the official packages are distributed under the [MIT License](https://opensource.org/license/mit/). In addition, the source code is publicly available on [GitHub](https://github.com/adonisjs).
+AdonisJS (фреймворк) и официальные пакеты распространяются на условиях [MIT License](https://opensource.org/license/mit/). Кроме того, исходный код находится в открытом доступе на [GitHub](https://github.com/adonisjs).
 
-## Is AdonisJS reliable and well-maintained?
+## Является ли AdonisJS надежным и хорошо поддерживаемым?
 
-AdonisJS is used in production by [Marie Claire](https://www.marieclaire.com/), [Cleavr](https://cleavr.io), [Ledger](https://www.ledger.com/), [Cavai](https://cavai.com), [Kayako](https://kayako.com), [Renault Group](https://www.renaultgroup.com/en/), [Zakodium](https://www.zakodium.com/), [FIVB](https://www.fivb.com), and many more companies in varying capacities.
+AdonisJS используется в продакшене такими компаниями, как [Marie Claire](https://www.marieclaire.com/), [Cleavr](https://cleavr.io), [Ledger](https://www.ledger.com/), [Cavai](https://cavai.com), [Kayako](https://kayako.com), [Renault Group](https://www.renaultgroup.com/en/), [Zakodium](https://www.zakodium.com/), [FIVB](https://www.fivb.com), и многими другими компаниями в различных областях применения.
 
-The framework creator works full-time on AdonisJS and ensures the framework is actively improved and maintained.
+Создатель фреймворка постоянно работает над AdonisJS и обеспечивает его активное совершенствование и поддержку.
 
-- During the v6 release, we migrated to the ES module system.
-- Officially maintained packages have zero security vulnerabilities reported by Snyk’s security scan.
-- We continuously work towards writing better documentation, releasing new features, and improving the existing codebase. 
+- С момента выпуска 6 версии мы перешли на систему ES-модулей.
+- Официально поддерживаемые пакеты не имеют уязвимостей безопасности по данным сканирования Snyk.
+- Мы постоянно работаем над улучшением документации, выпуском новых функций и совершенствованием существующей кодовой базы.
 
-## Is AdonisJS fast?
+## Быстро ли работает AdonisJS?
 
-When creating the framework or adding new features, we primarily focus on solving real-world problems rather than cutting down the functionality to make AdonisJS win the benchmark Olympics.
+При создании фреймворка или добавлении новых функций мы в первую очередь фокусируемся на решении реальных задач, а не на урезании функциональности ради того, чтобы AdonisJS выигрывал в олимпиаде бенчмарков.
 
-However, we look closer at the performance metrics and fine-tune the framework performance wherever it matters. For example:
+Однако мы внимательно следим за показателями производительности и оптимизируем работу фреймворка там, где это действительно важно. Например:
 
-- The AdonisJS HTTP server in standalone mode is [on par with Fastify in performance](https://github.com/adonisjs/http-server/blob/main/benchmarks.md). 
-- The validation layer of the framework [outperforms other popular validation libraries](https://github.com/vinejs/vine/blob/main/benchmarks.md) in the Node.js ecosystem.
+- HTTP-сервер AdonisJS в автономном режиме [не уступает по производительности Fastify](https://github.com/adonisjs/http-server/blob/main/benchmarks.md).
+- Слой валидации фреймворка [превосходит по производительности другие популярные библиотеки валидации](https://github.com/vinejs/vine/blob/main/benchmarks.md) в экосистеме Node.js.
 
-## Do you offer paid support?
-Yes! On our website, you can learn more about the [priority support program](https://adonisjs.com/support_program).
+## Предлагаете ли вы платную поддержку
+Да! На нашем сайте вы можете узнать больше о [программе приоритетной поддержки](https://adonisjs.com/support_program).
 
-## How do I stay up to date with AdonisJS?
-Check out the following links to stay connected and up-to-date.
+## Как быть в курсе всех новостей AdonisJS?
+Ознакомьтесь со следующими ссылками, чтобы оставаться на связи и быть в курсе последних событий.
 
-- [Discord server](https://discord.gg/vDcEjq6)
-- [X (Formerly Twitter)](https://twitter.com/adonisframework)
-- [GitHub discussions](https://github.com/orgs/adonisjs/discussions)
-- [Blog and Newsletter](https://adonisjs.com/blog?referrer=adonisjs_docs_faq)
+- [Discord сервер](https://discord.gg/vDcEjq6)
+- [X (ранее Twitter)](https://twitter.com/adonisframework)
+- [GitHub обсуждения](https://github.com/orgs/adonisjs/discussions)
+- [Блог и рассылка](https://adonisjs.com/blog?referrer=adonisjs_docs_faq)
 - [Adocasts](https://adocasts.com/?referrer=adonisjs_docs_faq)
