@@ -31,33 +31,33 @@
   },
   {
     "permalink": "getting-started/installation",
-    "title": "Installation",
+    "title": "Установка",
     "contentPath": "./getting_started/installation.md",
-    "category": "Getting started"
+    "category": "Приступая к работе"
   },
   {
     "permalink": "getting-started/configuration",
     "title": "Configuration",
     "contentPath": "./getting_started/configuration.md",
-    "category": "Getting started"
+    "category": "Приступая к работе"
   },
   {
     "permalink": "getting-started/environment-variables",
     "title": "Environment variables",
     "contentPath": "./getting_started/environment_variables.md",
-    "category": "Getting started"
+    "category": "Приступая к работе"
   },
   {
     "permalink": "getting-started/folder-structure",
     "title": "Folder structure",
     "contentPath": "./getting_started/folder_structure.md",
-    "category": "Getting started"
+    "category": "Приступая к работе"
   },
   {
     "permalink": "getting-started/deployment",
     "title": "Deployment",
     "contentPath": "./getting_started/deployment.md",
-    "category": "Getting started"
+    "category": "Приступая к работе"
   },
   {
     "permalink": "concepts/adonisrc-file",
